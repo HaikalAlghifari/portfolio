@@ -13,7 +13,7 @@ module.exports = {
         // primary: '#14b8a6',
         primary: '#008696',
         dark: '#001419',
-        darks: '#00181d ',
+        darks: '#00181d',
         secondary: '#64748b',
       },
       screens: {
