@@ -51,16 +51,18 @@ window.onscroll = function () {
 //   });
 // });
 
-let i = 0;
-let tulis = 'Full Stack Developer & Front End Developer';
-function mengetik() {
-  if (i < tulis.length) {
-    document.getElementById('tulisan').innerHTML += tulis.charAt(i);
-    i++;
-    setTimeout(mengetik, 100);
+document.addEventListener("DOMContentLoaded", function () {
+  let i = 0;
+  let tulis = 'Full Stack Developer & Front End Developer';
+  function mengetik() {
+    if (i < tulis.length) {
+      document.getElementById('tulisan').innerHTML += tulis.charAt(i);
+      i++;
+      setTimeout(mengetik, 100);
+    }
   }
-}
-mengetik();
+  mengetik();
+});
 
 // dark mode
 
