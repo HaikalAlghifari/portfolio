@@ -52,7 +52,7 @@ window.onscroll = function () {
 // });
 
 let i = 0;
-let tulis = 'Full Stack Developer & Graphic Designer';
+let tulis = 'Full Stack Developer & Front End Developer';
 function mengetik() {
   if (i < tulis.length) {
     document.getElementById('tulisan').innerHTML += tulis.charAt(i);
